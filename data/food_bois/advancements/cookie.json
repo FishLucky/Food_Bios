@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "eat_cookie": {
+      "conditions": {
+        "item": {
+          "item": "minecraft:cookie"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "美味甜点"
+    },
+    "description": {
+      "translate": "应该分享给好朋友"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "eat_cookie"
+    ]
+  ],
+  "rewards": {
+    "experience": 520,
+    "function": "food_bois:cookie"
+  }
+}

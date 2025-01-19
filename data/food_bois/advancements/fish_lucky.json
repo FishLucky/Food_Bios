@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "eat_fish": {
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:tropical_fish"
+    },
+    "title": {
+      "translate": "幸运之锦鲤！"
+    },
+    "description": {
+      "translate": "谢谢你支持我们！"
+    },
+    "frame": "challenge",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "eat_fish"
+    ]
+  ],
+  "rewards": {
+    "experience": 1314,
+    "function": "food_bois:fish_lucky"
+  }
+}
