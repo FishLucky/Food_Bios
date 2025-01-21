@@ -36,6 +36,30 @@ summon minecraft:magma_cube ~ ~10 ~ {Tags:["random"]}
 summon minecraft:witch ~ ~10 ~ {Tags:["random"]}
 summon minecraft:villager ~ ~10 ~ {Tags:["random"]}
 summon minecraft:warden ~ ~10 ~ {Tags:["random"]}
+summon minecraft:evoker ~ ~10 ~ {Tags:["random"]}
+summon minecraft:vindicator ~ ~10 ~ {Tags:["random"]}
+summon minecraft:pillager ~ ~10 ~ {Tags:["random"]}
+summon minecraft:illusioner ~ ~10 ~ {Tags:["random"]}
+summon minecraft:ravager ~ ~10 ~ {Tags:["random"]}
+summon minecraft:shulker ~ ~10 ~ {Tags:["random"]}
+summon minecraft:enderman ~ ~10 ~ {Tags:["random"]}
+summon minecraft:husk ~ ~10 ~ {Tags:["random"]}
+summon minecraft:stray ~ ~10 ~ {Tags:["random"]}
+summon minecraft:zombie_villager ~ ~10 ~ {Tags:["random"]}
+summon minecraft:zombified_piglin ~ ~10 ~ {Tags:["random"]}
+summon minecraft:drowned ~ ~10 ~ {Tags:["random"]}
+summon minecraft:phantom ~ ~10 ~ {Tags:["random"]}
+summon minecraft:skeleton_horse ~ ~10 ~ {Tags:["random"]}
+summon minecraft:zombie_horse ~ ~10 ~ {Tags:["random"]}
+summon minecraft:zoglin ~ ~10 ~ {Tags:["random"]}
+summon minecraft:hoglin ~ ~10 ~ {Tags:["random"]}
+summon minecraft:piglin ~ ~10 ~ {Tags:["random"]}
+summon minecraft:piglin_brute ~ ~10 ~ {Tags:["random"]}
+summon minecraft:strider ~ ~10 ~ {Tags:["random"]}
+summon minecraft:zombified_piglin ~ ~10 ~ {Tags:["random"]}
+summon minecraft:endermite ~ ~10 ~ {Tags:["random"]}
+summon minecraft:guardian ~ ~10 ~ {Tags:["random"]}
+summon minecraft:elder_guardian ~ ~10 ~ {Tags:["random"]}
 # 随机选择生物
 tp @e[tag=random,sort=random,limit=1] ~ ~ ~
 tp @e[tag=random,distance=2..] ~ -200 ~
