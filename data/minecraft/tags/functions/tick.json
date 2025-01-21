@@ -1,6 +1,7 @@
 {
   "values": [
     "food_bois:adv_refresh",
-    "food_bois:reduce_hunger"
+    "food_bois:reduce_hunger",
+    "food_bois:check"
   ]
 }
