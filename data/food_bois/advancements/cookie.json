@@ -4,6 +4,9 @@
       "conditions": {
         "item": {
           "item": "minecraft:cookie"
+        },
+        "player": {
+          "nbt": "{SelectedItem:{id:\"minecraft:cookie\"}}"
         }
       },
       "trigger": "minecraft:consume_item"

@@ -4,6 +4,9 @@
       "conditions": {
         "item": {
           "item": "minecraft:tropical_fish"
+        },
+        "player": {
+          "nbt": "{SelectedItem:{id:\"minecraft:tropical_fish\"}}"
         }
       },
       "trigger": "minecraft:consume_item"

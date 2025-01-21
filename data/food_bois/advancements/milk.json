@@ -4,6 +4,9 @@
       "conditions": {
         "item": {
           "item": "minecraft:milk_bucket"
+        },
+        "player": {
+          "nbt": "{SelectedItem:{id:\"minecraft:milk_bucket\"}}"
         }
       },
       "trigger": "minecraft:consume_item"
