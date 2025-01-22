@@ -56,10 +56,16 @@ summon minecraft:hoglin ~ ~10 ~ {Tags:["random"]}
 summon minecraft:piglin ~ ~10 ~ {Tags:["random"]}
 summon minecraft:piglin_brute ~ ~10 ~ {Tags:["random"]}
 summon minecraft:strider ~ ~10 ~ {Tags:["random"]}
-summon minecraft:zombified_piglin ~ ~10 ~ {Tags:["random"]}
 summon minecraft:endermite ~ ~10 ~ {Tags:["random"]}
 summon minecraft:guardian ~ ~10 ~ {Tags:["random"]}
 summon minecraft:elder_guardian ~ ~10 ~ {Tags:["random"]}
+summon minecraft:iron_golem ~ ~10 ~ {Tags:["random"]}
+summon minecraft:snow_golem ~ ~10 ~ {Tags:["random"]}
+summon minecraft:allay ~ ~10 ~ {Tags:["random"]}
+summon minecraft:camel ~ ~10 ~ {Tags:["random"]}
+summon minecraft:frog ~ ~10 ~ {Tags:["random"]}
+summon minecraft:panda ~ ~10 ~ {Tags:["random"]}
+summon minecraft:mooshroom ~ ~10 ~ {Tags:["random"]}
 # 随机选择生物
 tp @e[tag=random,sort=random,limit=1] ~ ~ ~
 tp @e[tag=random,distance=2..] ~ -200 ~
