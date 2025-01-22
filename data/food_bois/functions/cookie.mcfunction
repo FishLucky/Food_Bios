@@ -8,4 +8,4 @@ summon minecraft:villager ~ ~3 ~
 summon minecraft:iron_golem ~ ~3 ~
 summon minecraft:snow_golem ~ ~3 ~
 summon minecraft:cat ~ ~3 ~
-give @s minecraft:cookie 10
+experience add @s 1 levels

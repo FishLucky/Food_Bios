@@ -1,12 +1,12 @@
 {
   "criteria": {
-    "drink_milk": {
+    "eat_glow_berries": {
       "conditions": {
         "item": {
-          "item": "minecraft:milk_bucket"
+          "item": "minecraft:glow_berries"
         },
         "player": {
-          "nbt": "{SelectedItem:{id:\"minecraft:milk_bucket\"}}"
+          "nbt": "{SelectedItem:{id:\"minecraft:glow_berries\"}}"
         }
       },
       "trigger": "minecraft:consume_item"
@@ -14,13 +14,13 @@
   },
   "display": {
     "icon": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:glow_berries"
     },
     "title": {
-      "translate": "你不应该这样的……"
+      "translate": "打上高光"
     },
     "description": {
-      "translate": "或许你想要清除你的效果，但这适得其反！"
+      "translate": "照亮周围亮晶晶"
     },
     "frame": "task",
     "announce_to_chat": true,
@@ -29,11 +29,11 @@
   },
   "requirements": [
     [
-      "drink_milk"
+      "eat_glow_berries"
     ]
   ],
   "rewards": {
     "experience": 10,
-    "function": "food_bois:milk"
+    "function": "food_bois:glow_berries"
   }
 }

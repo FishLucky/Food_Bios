@@ -1,4 +1,4 @@
-Note: If you are not a Chinese, please use the translator to read this description, thanks for your understading.
+Note: If you are not a Chinese, please use the translator to read this description, thanks for your understanding.
 
 # Food_Bios
 这是一个数据包，当你才吃东西时会随机生成一个生物！

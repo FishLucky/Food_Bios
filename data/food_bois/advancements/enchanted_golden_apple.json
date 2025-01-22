@@ -1,0 +1,39 @@
+{
+    "criteria": {
+      "eat_enchanted_golden_apple": {
+        "conditions": {
+          "item": {
+            "item": "minecraft:enchanted_golden_apple"
+          },
+          "player": {
+            "nbt": "{SelectedItem:{id:\"minecraft:enchanted_golden_apple\"}}"
+          }
+        },
+        "trigger": "minecraft:consume_item"
+      }
+    },
+    "display": {
+      "icon": {
+        "item": "minecraft:enchanted_golden_apple"
+      },
+      "title": {
+        "translate": "金光闪闪++"
+      },
+      "description": {
+        "translate": "这耀眼的光芒！"
+      },
+      "frame": "task",
+      "announce_to_chat": true,
+      "show_toast": true,
+      "hidden": false
+    },
+    "requirements": [
+      [
+        "eat_enchanted_golden_apple"
+      ]
+    ],
+    "rewards": {
+      "experience": 10,
+      "function": "food_bois:enchanted_golden_apple"
+    }
+  }
