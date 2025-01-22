@@ -1,0 +1,1 @@
+effect give @e[r=10] minecraft:glowing 1200 255 true

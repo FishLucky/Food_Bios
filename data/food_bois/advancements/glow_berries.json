@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "eat_glow_berries": {
+      "conditions": {
+        "item": {
+          "item": "minecraft:glow_berries"
+        },
+        "player": {
+          "nbt": "{SelectedItem:{id:\"minecraft:glow_berries\"}}"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "minecraft:glow_berries"
+    },
+    "title": {
+      "translate": "打上高光"
+    },
+    "description": {
+      "translate": "照亮周围亮晶晶"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "eat_glow_berries"
+    ]
+  ],
+  "rewards": {
+    "experience": 10,
+    "function": "food_bois:glow_berries"
+  }
+}
