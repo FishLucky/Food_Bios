@@ -1,0 +1,1 @@
+advancement revoke @a only food_bois:eat_food
